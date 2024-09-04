@@ -89,21 +89,21 @@ Frontend:
 
 8. Create Home and Dashboard wrapper file under the wrappers folder.
 
-9. In (HomeWrapper.jsx)[HomeWrapper.jsx]  has home, register, login navbar codes.
+9. In [HomeWrapper.jsx](HomeWrapper.jsx)  has home, register, login navbar codes.
 
-10. In (Dashboard.jsx)[Dashboard.jsx] has products, logout, bookedlist and search navbar codes.
+10. In [Dashboard.jsx](Dashboard.jsx) has products, logout, bookedlist and search navbar codes.
 
 11. Create Components based on the navbar under components folder:
   1. HomeWrapper child components
-   - (Home.jsx)[Home.jsx],
-   - (Register.jsx)[Register.jsx]
-   - (Login.jsx)[Login.jsx]
+   - [Home.jsx](Home.jsx),
+   - [Register.jsx](Register.jsx),
+   - [Login.jsx](Login.jsx).
 
   2. DashboardWrapper child components
-   - (Products.jsx)[Products.jsx]
-   - (Booking.jsx)[Booking.jsx]
-   - (BookedList.jsx)[BookedList.jsx]
-   - (EditBooking.jsx)[EditBooking.jsx]
+   - [Products.jsx](Products.jsx),
+   - [Booking.jsx](Booking.jsx),
+   - [BookedList.jsx](BookedList.jsx),
+   - [EditBooking.jsx](EditBooking.jsx).
 
 12. Set all child components to router under the HomeWrapper and DashboarWrapper in App.jsx
 
@@ -116,14 +116,14 @@ Frontend:
 14. using loaders to display our datas and services to get our endpoints.
 
 a. Loaders:
-  1. (userLoaders.js)[userLoaders.js],
-  2. (productLoaders.js)[productLoaders.js],
-  3. (bookingLoaders.js)[bookingLoaders.js]
+  1. [userLoaders.js](userLoaders.js),
+  2. [productLoaders.js](productLoaders.js),
+  3. [bookingLoaders.js](bookingLoaders.js).
 
 b. Services:
-  1. (userServices.js)[userServices.js],
-  2. (productServices.js)[productServices.js],
-  3. (bookingServices.js)[bookingServices.js]
+  1. [userServices.js](userServices.js),
+  2. [productServices.js](productServices.js),
+  3. [bookingServices.js](bookingServices.js).
 
 15. All tasks complete next create git repository.
 

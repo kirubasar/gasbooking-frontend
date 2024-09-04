@@ -89,9 +89,9 @@ Frontend:
 
 8. Create Home and Dashboard wrapper file under the wrappers folder.
 
-9. In [HomeWrapper.jsx](HomeWrapper.jsx)  has home, register, login navbar codes.
+9. In [HomeWrapper.jsx](./src/wrappers/HomeWrapper.jsx)  has home, register, login navbar codes.
 
-10. In [Dashboard.jsx](Dashboard.jsx) has products, logout, bookedlist and search navbar codes.
+10. In [DashboardWrapper.jsx](./src/wrappers/DashboardWrapper.jsx) has products, logout, bookedlist and search navbar codes.
 
 11. Create Components based on the navbar under components folder:
   1. HomeWrapper child components

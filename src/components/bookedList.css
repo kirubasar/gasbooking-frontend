@@ -1,0 +1,52 @@
+table th, table td, button {
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px 50px;
+  font-size: medium;
+  color: black;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.tableWrap {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+table thead, tbody tr:nth-child(even) {
+  background-color: rgb(223, 224, 225);
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: rgb(254, 254, 254);
+}
+
+.btn.btn-primary {
+  background-color: #007bff; 
+  color: white;
+  border-radius: 5px;
+  margin-right: 5px;
+  padding: 1px 4px;
+}
+
+.btn.btn-primary:hover {
+  background-color: rgb(24, 24, 96);
+}
+
+.btn.btn-danger {
+  background-color: #dc3545; 
+  color: white;
+  border-radius: 5px;
+  padding: 1px 4px;
+  margin-top: 2px;
+}
+
+.btn.btn-danger:hover {
+  background-color: rgb(193, 5, 5);
+}

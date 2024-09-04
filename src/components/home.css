@@ -1,0 +1,7 @@
+.card{
+    width: 400px ;
+    height: 350px;
+}
+.card-header{
+    background-color: rgb(181, 223, 209) !important;
+}

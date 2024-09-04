@@ -1,0 +1,16 @@
+.card{
+    width: 400px;
+    height: 550px;
+    background-color: rgb(246, 233, 218) !important;
+}
+.card-img-top{
+    width: 200px;
+    height:200px; 
+    padding:10px 5px 5px;
+    background-color: rgb(247, 249, 250);
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.card-body{
+    align-items: center !important;
+}

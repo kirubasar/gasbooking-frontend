@@ -28,6 +28,8 @@ const BookedList = () => {
         alert(response.data.message);
         const deletedBookings = bookings.filter(booking => booking._id !== bookingId);
         setBookings(deletedBookings);
+
+        navigate('/dashboard/products');
       })
       .catch(error => {
         alert(error.response.data.message);
@@ -35,7 +37,7 @@ const BookedList = () => {
   };
 
   const handleEdit = (booking) => {
-    console.log("Booking:", booking);
+    //console.log("Booking:", booking);
     navigate('/dashboard/editBooking', { state: { booking } });
   };
 

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // define the base url for the API
-const baseURL =  "http://localhost:3003/api/v1/";
+const baseURL =  "https://gasbooking-backend.onrender.com/api/v1/";
 const instance = axios.create({
     baseURL,
     timeout:5000,

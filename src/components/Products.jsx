@@ -18,7 +18,7 @@ const Products = () => {
                 <div className="col-md-4 col-lg-4 col-xl-4" key={index}>
                   
                 <div className="card">
-                <img src="/image/gas.png" className="card-img-top" alt={product.name}/>
+                <img src="/images/gas-lpg.png" className="card-img-top" alt={product.name}/>
                 <div className="card-body">
                 <h5 className="card-title">Name: {product.name}</h5>
                 <p className="card-text">Description: {product.description}</p>

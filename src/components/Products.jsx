@@ -5,7 +5,7 @@ const Products = () => {
     const location = useLocation();
     const defaultProducts = useLoaderData(); // This will load the products by default via loader
     const products = location.state?.searchResults || defaultProducts.data.products;
-    const imgUrl = `https://www.tatkalbanking.com/public_images/icon-gas.png`
+   
    // console.log(products)
   return (
    <div className="container mt-5">
@@ -18,7 +18,7 @@ const Products = () => {
                 <div className="col-md-4 col-lg-4 col-xl-4" key={index}>
                   
                 <div className="card">
-                <img src={imgUrl} className="card-img-top" alt={product.name}/>
+                <img src="/gas.png" className="card-img-top" alt={product.name}/>
                 <div className="card-body">
                 <h5 className="card-title">Name: {product.name}</h5>
                 <p className="card-text">Description: {product.description}</p>
